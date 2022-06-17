@@ -1,38 +1,54 @@
-.App {
+
+.container-label {
+  margin-bottom: 30px;
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+.container-btn {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+h1 {
+  font-weight: 900;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.container-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .container-grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .checkbox-align{
+      text-align: left;
   }
-}
+  .form-error{
+    color: red;
+    font-size:medium;
+  }
+
+  body{
+    background-color: azure;
+  }
+   
